@@ -43,6 +43,8 @@ describe Task do
       # true or false.
       #
       task.should_not be_complete
+      # task.mothafucka_is_one complete_mothafucka
+
       task.complete!
       task.should be_complete
     end
